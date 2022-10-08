@@ -1,0 +1,11 @@
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\backendecommerce.exe
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\appsettings.Development.json
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\appsettings.json
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\backendecommerce.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\backendecommerce.deps.json
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\backendecommerce.runtimeconfig.json
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\backendecommerce.pdb
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\Microsoft.OpenApi.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\backendecommerce\bin\release\net5.0\publish\Swashbuckle.AspNetCore.SwaggerUI.dll
