@@ -1,0 +1,15 @@
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\bin\Debug\net5.0\EcommerceAPI.Core.deps.json
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\bin\Debug\net5.0\EcommerceAPI.Core.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\bin\Debug\net5.0\ref\EcommerceAPI.Core.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\bin\Debug\net5.0\EcommerceAPI.Core.pdb
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\bin\Debug\net5.0\EcommerceAPI.Domain.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\bin\Debug\net5.0\EcommerceAPI.Domain.pdb
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\obj\Debug\net5.0\EcommerceAPI.Core.csproj.AssemblyReference.cache
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\obj\Debug\net5.0\EcommerceAPI.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\obj\Debug\net5.0\EcommerceAPI.Core.AssemblyInfoInputs.cache
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\obj\Debug\net5.0\EcommerceAPI.Core.AssemblyInfo.cs
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\obj\Debug\net5.0\EcommerceAPI.Core.csproj.CoreCompileInputs.cache
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\obj\Debug\net5.0\EcommerceAPI.Core.csproj.CopyComplete
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\obj\Debug\net5.0\EcommerceAPI.Core.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\obj\Debug\net5.0\ref\EcommerceAPI.Core.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Core\obj\Debug\net5.0\EcommerceAPI.Core.pdb

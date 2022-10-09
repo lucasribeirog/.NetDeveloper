@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.17" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.17" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EcommerceAPI.Application\EcommerceAPI.Application.csproj" />
+    <ProjectReference Include="..\EcommerceAPI.Core\EcommerceAPI.Core.csproj" />
+    <ProjectReference Include="..\EcommerceAPI.Domain.Services\EcommerceAPI.Domain.Services.csproj" />
+    <ProjectReference Include="..\EcommerceAPI.Domain\EcommerceAPI.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

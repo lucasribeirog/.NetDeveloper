@@ -1,0 +1,17 @@
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\bin\Debug\net5.0\EcommerceAPI.Domain.Services.deps.json
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\bin\Debug\net5.0\EcommerceAPI.Domain.Services.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\bin\Debug\net5.0\ref\EcommerceAPI.Domain.Services.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\bin\Debug\net5.0\EcommerceAPI.Domain.Services.pdb
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\bin\Debug\net5.0\EcommerceAPI.Core.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\bin\Debug\net5.0\EcommerceAPI.Domain.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\bin\Debug\net5.0\EcommerceAPI.Core.pdb
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\bin\Debug\net5.0\EcommerceAPI.Domain.pdb
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\obj\Debug\net5.0\EcommerceAPI.Domain.Services.csproj.AssemblyReference.cache
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\obj\Debug\net5.0\EcommerceAPI.Domain.Services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\obj\Debug\net5.0\EcommerceAPI.Domain.Services.AssemblyInfoInputs.cache
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\obj\Debug\net5.0\EcommerceAPI.Domain.Services.AssemblyInfo.cs
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\obj\Debug\net5.0\EcommerceAPI.Domain.Services.csproj.CoreCompileInputs.cache
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\obj\Debug\net5.0\EcommerceAPI.Domain.Services.csproj.CopyComplete
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\obj\Debug\net5.0\EcommerceAPI.Domain.Services.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\obj\Debug\net5.0\ref\EcommerceAPI.Domain.Services.dll
+C:\Users\lucas.silva\projetos\.NetDeveloper\EcommerceAPI\EcommerceAPI.Domain.Services\obj\Debug\net5.0\EcommerceAPI.Domain.Services.pdb
