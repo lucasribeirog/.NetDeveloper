@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Interfaces\Services\" />
-    <Folder Include="Interfaces\Repositories\" />
+    <ProjectReference Include="..\EcommerceAPI.Domain\EcommerceAPI.Domain.csproj" />
   </ItemGroup>
 
 </Project>

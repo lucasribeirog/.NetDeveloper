@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "EcommerceAPI.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/EcommerceAPI.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EcommerceAPI.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EcommerceAPI.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EcommerceAPI.Domain/EcommerceAPI.Domain.csproj",
+      "msbuildProject": "../EcommerceAPI.Domain/EcommerceAPI.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "EcommerceAPI.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\lucas.silva\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\lucas.silva\\projetos\\.NetDeveloper\\EcommerceAPI\\EcommerceAPI.Domain\\EcommerceAPI.Domain.csproj": {
+              "projectPath": "C:\\Users\\lucas.silva\\projetos\\.NetDeveloper\\EcommerceAPI\\EcommerceAPI.Domain\\EcommerceAPI.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
