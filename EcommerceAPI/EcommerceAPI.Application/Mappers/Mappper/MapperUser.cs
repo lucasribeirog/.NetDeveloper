@@ -19,7 +19,8 @@ namespace EcommerceAPI.Application.Mappers.Mapper
                 Login = userDto.Login,
                 Password = userDto.Password,
                 Status = userDto.Status,
-                Address = userDto.Address
+                Address = userDto.Address,
+                Email = userDto.Email
             };
 
             return user;
@@ -34,7 +35,8 @@ namespace EcommerceAPI.Application.Mappers.Mapper
                 Login = user.Login,
                 Password = user.Password,
                 Status = user.Status,
-                Address = user.Address
+                Address = user.Address,
+                Email = user.Email
             };
 
             return userDto;
@@ -49,10 +51,41 @@ namespace EcommerceAPI.Application.Mappers.Mapper
                 Login = u.Login,
                 Password = u.Password,
                 Status = u.Status,
-                Address = u.Address
+                Address = u.Address,
+                Email = u.Email
             });
 
             return userDtos;
+        }
+
+        public UserDto MapperUserDtoRegisterToUserDTO(UserDtoRegister userDtoRegister)
+        {
+            UserDto userDto = new UserDto
+            {
+                Id = 0,
+                Name = userDtoRegister.Name,
+                Login = userDtoRegister.Login,
+                Password = userDtoRegister.Password,
+                Status = userDtoRegister.Status,
+                Address = userDtoRegister.Address,
+                Email = userDtoRegister.Email
+            };
+            return userDto;
+        }
+
+        public UserDto MapperUserDtoDeleteToUserDTO(UserDtoDelete userDtoDelete)
+        {
+            UserDto userDto = new UserDto
+            {
+                Id = userDtoDelete.Id,
+                Name = string.Empty,
+                Login = string.Empty,
+                Password = string.Empty,
+                Status = 0,
+                Address = string.Empty,
+                Email = string.Empty
+            };
+            return userDto;
         }
     }
 }

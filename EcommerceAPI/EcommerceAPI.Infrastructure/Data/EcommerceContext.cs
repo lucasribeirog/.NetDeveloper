@@ -10,11 +10,10 @@ namespace EcommerceAPI.Infrastructure.Data
     {
         public EcommerceContext()
         {
-
         }
-        public EcommerceContext(DbContextOptions<EcommerceContext> options):base(options)
-        {
 
+        public EcommerceContext(DbContextOptions<EcommerceContext> options) : base(options)
+        {
         }
 
         public DbSet<User> Users { get; set; }
@@ -24,7 +23,5 @@ namespace EcommerceAPI.Infrastructure.Data
             //Space to business rule
             return base.SaveChanges();
         }
-
-
     }
 }

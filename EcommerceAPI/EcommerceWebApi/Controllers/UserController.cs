@@ -1,5 +1,6 @@
 ﻿using EcommerceAPI.Application.Dtos;
 using EcommerceAPI.Application.Interfaces;
+using EcommerceAPI.Application.Mappers.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -11,10 +12,12 @@ namespace EcommerceWebApi.Controllers
     public class UserController : Controller
     {
         private readonly IApplicationServiceUser _applicationServiceUser;
+        private readonly IMapperUser _mapperUser;
 
-        public UserController(IApplicationServiceUser applicationServiceUser)
+        public UserController(IApplicationServiceUser applicationServiceUser, IMapperUser mapperUser)
         {
             this._applicationServiceUser = applicationServiceUser;
+            this._mapperUser = mapperUser;
         }
 
         #region Get
@@ -39,14 +42,14 @@ namespace EcommerceWebApi.Controllers
 
         // POST api/values
         [HttpPost]
-        public ActionResult Post([FromBody] UserDto userDto)
+        public ActionResult Post([FromBody] UserDtoRegister userDtoRegister)
         {
             try
             {
-                if (userDto == null)
+                if (userDtoRegister is null)
                     return NotFound();
 
-                _applicationServiceUser.Add(userDto);
+                _applicationServiceUser.Add(_mapperUser.MapperUserDtoRegisterToUserDTO(userDtoRegister));
                 return Ok("User registered with success!");
             }
             catch (Exception ex)
@@ -61,14 +64,14 @@ namespace EcommerceWebApi.Controllers
 
         // PUT api/values/5
         [HttpPut]
-        public ActionResult Put([FromBody] UserDto userDtp)
+        public ActionResult Put([FromBody] UserDto userDto)
         {
             try
             {
-                if (userDtp == null)
+                if (userDto is null)
                     return NotFound();
 
-                _applicationServiceUser.Update(userDtp);
+                _applicationServiceUser.Update(userDto);
                 return Ok("User Updated with success!");
             }
             catch (Exception)
@@ -79,18 +82,35 @@ namespace EcommerceWebApi.Controllers
 
         #endregion Put
 
+        [HttpPatch]
+        public ActionResult Patch([FromBody] UserDto userDto)
+        {
+            try
+            {
+                if (userDto is null)
+                    return NotFound();
+
+                _applicationServiceUser.Update(userDto);
+                return Ok("User Updated with success!");
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
         #region Delete
 
         // DELETE api/values/5
         [HttpDelete()]
-        public ActionResult Delete([FromBody] UserDto userDto)
+        public ActionResult Delete([FromBody] UserDtoDelete userDtoDelete)
         {
             try
             {
-                if (userDto == null)
+                if (userDtoDelete is null)
                     return NotFound();
 
-                _applicationServiceUser.Remove(userDto);
+                _applicationServiceUser.Remove(_mapperUser.MapperUserDtoDeleteToUserDTO(userDtoDelete));
                 return Ok("User Removed with success!");
             }
             catch (Exception ex)

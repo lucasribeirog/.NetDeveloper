@@ -25,7 +25,7 @@ namespace EcommerceWebApi
         {
             string connectionString = Configuration["SqlConnection:SqlConnectionString"];
 
-            services.AddDbContext<EcommerceContext>(opt => opt.UseSqlServer(connectionString));
+            services.AddDbContext<EcommerceContext>(opt => opt.UseSqlServer(connectionString, b => b.MigrationsAssembly("EcommerceWebApi")));
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -42,6 +42,16 @@ namespace EcommerceWebApi
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            #region Verify Migrations Available
+
+            using (var serviceScope = app.ApplicationServices.CreateScope())
+            {
+                var serviceDb = serviceScope.ServiceProvider.GetService<EcommerceContext>();
+                serviceDb.Database.Migrate();
+            }
+
+            #endregion Verify Migrations Available
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

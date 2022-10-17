@@ -11,5 +11,9 @@ namespace EcommerceAPI.Application.Mappers.Interfaces
         IEnumerable<UserDto> MapperListUsersDto(IEnumerable<User> users);
 
         UserDto MapperEntityToDto(User user);
+
+        UserDto MapperUserDtoRegisterToUserDTO(UserDtoRegister userDtoRegister);
+
+        UserDto MapperUserDtoDeleteToUserDTO(UserDtoDelete userDtoDelete);
     }
 }
